@@ -1,0 +1,8 @@
+---
+applications:
+- name: myapp-unsecured
+  routes:
+    - route: node-12345671-1.cfapps.eu10.hana.ondemand.com
+  path: myapp
+  memory: 128M
+  buildpack: nodejs_buildpack
