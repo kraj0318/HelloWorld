@@ -13,6 +13,7 @@
 ### General project setup
 general:
   inferBuildTool: true
+  buildTool: "npm"
 
 ### Step-specific configuration
 steps:
